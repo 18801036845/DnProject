@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0c94e8"
+        android:gravity="center_horizontal"
+        android:text="注册"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/register_tv_number"
+            android:layout_width="70sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="注册账号" />
+
+        <EditText
+            android:id="@+id/register_et_number"
+            android:layout_width="230sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/register_tv_pasword"
+            android:layout_width="70sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+
+            android:text="设置密码"/>
+
+        <EditText
+            android:id="@+id/register_et_password"
+            android:layout_width="230sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120sp"
+        android:background="#0c94e8"
+        android:text="提交    " />
+</LinearLayout>
