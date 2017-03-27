@@ -13,7 +13,7 @@ import com.example.dell.dnproject.R;
  * Created by DELL on 2017/3/24.
  */
 
-public class SetingFragment  extends Fragment{
+public class SettingFragment extends Fragment{
     private View view;
 
     @Override
